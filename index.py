@@ -213,10 +213,10 @@ while proceed!="exit":
             
             elif api_method == '5':
                 nft_contract = input(
-                    '[NFT Contract address (0x..):\n')
-                nft_id = input('[NFT On-chain ID:\n')
-                nft_from = input('[Transfer from address (0x..):\n')
-                nft_to = input('[Transfer to address (0x..):\n')
+                    '[NFT Contract address (0x..)]:\n')
+                nft_id = input('[NFT On-chain ID]:\n')
+                nft_from = input('[Transfer from address (0x..)]:\n')
+                nft_to = input('[Transfer to address (0x..)]:\n')
 
                 print('Transferring NFT..')
 
