@@ -297,8 +297,8 @@ while proceed!="exit":
                     proceed = input('Press any key to continue or type (exit) to end proccess\n')
 
             elif api_method == '7':
-                invoice_amount = input('[Invoice Amount:\n')
-                invoice_to = input('[Receiver address (0x..):\n')
+                invoice_amount = input('[Invoice Amount]:\n')
+                invoice_to = input('[Receiver address (0x..)]:\n')
 
                 print('Generating Invoice..')
 
