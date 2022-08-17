@@ -15,7 +15,7 @@ while proceed!="exit":
                 api_key
             except:
                 api_key = input(
-                    '[API key (skip for new key):\n')
+                    '[API key (skip for new key)]:\n')
                 if not api_key:
                     api_key = requests.get('https://thentic.tech/api/key').text
                     print('[Your API key: ' + api_key)
@@ -23,7 +23,7 @@ while proceed!="exit":
                 chain_id
             except:
                 chain_id = input(
-                    '[EVM chain id (skip for 97 - Binance testnet):\n'
+                    '[EVM chain id (skip for 97 - Binance testnet)]:\n'
                 )
                 if not chain_id:
                     chain_id = '97'
@@ -443,5 +443,4 @@ while proceed!="exit":
             else:
                 print('' + 'Please try again' + '')
     except:
-        # print('' + 'Please try again' + '')
         print('' + 'Please try again' + '')
